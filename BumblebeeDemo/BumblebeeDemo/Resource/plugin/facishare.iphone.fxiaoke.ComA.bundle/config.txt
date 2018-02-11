@@ -1,0 +1,11 @@
+{
+"moduleID": "facishare.iphone.fxiaoke.ComA",
+"name": "ComAEntrance",
+"entryClass": "ComAEntrance",
+"category": "组件A",
+"version": "1.0.0",
+"descInfo": "这是组件A",
+"type": "native"
+}
+
+

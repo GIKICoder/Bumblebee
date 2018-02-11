@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B740EBB1E72ECD80009B030 /* ComBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B740EBA1E72ECD80009B030 /* ComBTableViewController.m */; };
+		2B7A7A511E2723780067C978 /* ComponentB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A7A501E2723780067C978 /* ComponentB.m */; };
+		2B7A7A521E2723780067C978 /* ComponentB.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B7A7A4F1E2723780067C978 /* ComponentB.h */; };
+		2B7A7A721E27289E0067C978 /* ComBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A7A711E27289E0067C978 /* ComBViewController.m */; };
+		2B7A7A891E27295F0067C978 /* ComBEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A7A881E27295F0067C978 /* ComBEntrance.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B7A7A4A1E2723780067C978 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2B7A7A521E2723780067C978 /* ComponentB.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B740EB91E72ECD80009B030 /* ComBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComBTableViewController.h; sourceTree = "<group>"; };
+		2B740EBA1E72ECD80009B030 /* ComBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComBTableViewController.m; sourceTree = "<group>"; };
+		2B7A7A4C1E2723780067C978 /* libComponentB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComponentB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7A7A4F1E2723780067C978 /* ComponentB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentB.h; sourceTree = "<group>"; };
+		2B7A7A501E2723780067C978 /* ComponentB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentB.m; sourceTree = "<group>"; };
+		2B7A7A701E27289E0067C978 /* ComBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComBViewController.h; sourceTree = "<group>"; };
+		2B7A7A711E27289E0067C978 /* ComBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComBViewController.m; sourceTree = "<group>"; };
+		2B7A7A821E2729350067C978 /* libFSComCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFSComCore.a; path = "../FSComCore/lib/Debug-iphoneos/libFSComCore.a"; sourceTree = "<group>"; };
+		2B7A7A871E27295F0067C978 /* ComBEntrance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComBEntrance.h; sourceTree = "<group>"; };
+		2B7A7A881E27295F0067C978 /* ComBEntrance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComBEntrance.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B7A7A491E2723780067C978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B7A7A431E2723780067C978 = {
+			isa = PBXGroup;
+			children = (
+				2B7A7A4E1E2723780067C978 /* ComponentB */,
+				2B7A7A4D1E2723780067C978 /* Products */,
+				2B7A7A811E2729350067C978 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B7A7A4D1E2723780067C978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B7A7A4C1E2723780067C978 /* libComponentB.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B7A7A4E1E2723780067C978 /* ComponentB */ = {
+			isa = PBXGroup;
+			children = (
+				2B7A7A4F1E2723780067C978 /* ComponentB.h */,
+				2B7A7A501E2723780067C978 /* ComponentB.m */,
+				2B7A7A701E27289E0067C978 /* ComBViewController.h */,
+				2B7A7A711E27289E0067C978 /* ComBViewController.m */,
+				2B740EB91E72ECD80009B030 /* ComBTableViewController.h */,
+				2B740EBA1E72ECD80009B030 /* ComBTableViewController.m */,
+				2B7A7A761E2728D80067C978 /* ComBEntrance */,
+			);
+			path = ComponentB;
+			sourceTree = "<group>";
+		};
+		2B7A7A761E2728D80067C978 /* ComBEntrance */ = {
+			isa = PBXGroup;
+			children = (
+				2B7A7A871E27295F0067C978 /* ComBEntrance.h */,
+				2B7A7A881E27295F0067C978 /* ComBEntrance.m */,
+			);
+			path = ComBEntrance;
+			sourceTree = "<group>";
+		};
+		2B7A7A811E2729350067C978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B7A7A821E2729350067C978 /* libFSComCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B7A7A4B1E2723780067C978 /* ComponentB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7A7A551E2723780067C978 /* Build configuration list for PBXNativeTarget "ComponentB" */;
+			buildPhases = (
+				2B7A7A481E2723780067C978 /* Sources */,
+				2B7A7A491E2723780067C978 /* Frameworks */,
+				2B7A7A4A1E2723780067C978 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComponentB;
+			productName = ComponentB;
+			productReference = 2B7A7A4C1E2723780067C978 /* libComponentB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B7A7A441E2723780067C978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GIKI;
+				TargetAttributes = {
+					2B7A7A4B1E2723780067C978 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = RCF9CM736N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2B7A7A471E2723780067C978 /* Build configuration list for PBXProject "ComponentB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B7A7A431E2723780067C978;
+			productRefGroup = 2B7A7A4D1E2723780067C978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B7A7A4B1E2723780067C978 /* ComponentB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B7A7A481E2723780067C978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B740EBB1E72ECD80009B030 /* ComBTableViewController.m in Sources */,
+				2B7A7A511E2723780067C978 /* ComponentB.m in Sources */,
+				2B7A7A891E27295F0067C978 /* ComBEntrance.m in Sources */,
+				2B7A7A721E27289E0067C978 /* ComBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B7A7A531E2723780067C978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B7A7A541E2723780067C978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B7A7A561E2723780067C978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				HEADER_SEARCH_PATHS = (
+					../Library/Bumblebee/inc,
+					../Library/GUtils/inc,
+					../Library/GBossTest/inc,
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2B7A7A571E2723780067C978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RCF9CM736N;
+				HEADER_SEARCH_PATHS = (
+					../Library/Bumblebee/inc,
+					../Library/GUtils/inc,
+					../Library/GBossTest/inc,
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B7A7A471E2723780067C978 /* Build configuration list for PBXProject "ComponentB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7A7A531E2723780067C978 /* Debug */,
+				2B7A7A541E2723780067C978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B7A7A551E2723780067C978 /* Build configuration list for PBXNativeTarget "ComponentB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7A7A561E2723780067C978 /* Debug */,
+				2B7A7A571E2723780067C978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B7A7A441E2723780067C978 /* Project object */;
+}

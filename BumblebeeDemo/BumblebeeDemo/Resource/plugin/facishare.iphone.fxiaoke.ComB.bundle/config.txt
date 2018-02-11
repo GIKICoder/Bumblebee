@@ -1,0 +1,9 @@
+{
+"moduleID": "facishare.iphone.fxiaoke.ComB",
+"name": "ComBEntrance",
+"entryClass": "ComBEntrance",
+"category": "组件B",
+"version": "1.0.0",
+"descInfo": "这是组件B",
+"type": "native"
+}
